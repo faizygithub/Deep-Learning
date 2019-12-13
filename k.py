@@ -4,4 +4,6 @@ if situation=='good':
     print("whats up")
     print('keep going')
 else:
-    print('work hard:')
+    something_happend=input('something happend?')
+    if something_happend=='yes':
+        print("you can tell me may be i can help")
